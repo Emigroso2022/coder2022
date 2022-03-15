@@ -10,34 +10,62 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;0,600;0,700;1,500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+    <!-- para el navbar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>DashCronos</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <img src="../assets/img/logo.png" class="logosClas" alt="logo sitio">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-            <nav class="menu">
-                <ul>
-                    <li class="licas"><a class="aitem" href="../index.html">Inicio</a></li>
-                    <li class="licas"><a class="aitem" href="../pages/nosotros.html">Nosotros</a></li>
-                    <li class="licas"><a class="aitem" href="../pages/productos.html">Productos</a>
-                    <li class="licas"><a class="aitem" href="../pages/galeria.html">Galeria</a></li>
-                    <li class="licas"><a class="aitem" href="../pages/contacto.html">Contacto</a></li>
-                </ul>
+            <div class="container-fluid">
+                <h5 class="text-light md-0 ">Cronos</h5>
+                <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" class="logosClas"
+                        alt="logo sitio"></a>
 
-            </nav>
-            <span>⌚</span>
-        </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        </li>
+                </div>
+            </div>
+        </nav>
+
 
     </header>
     <main>
-        <section class="hero">
-            <h1>Nuevo smartwatch</h1>
-            <p class="hero__description">Seguimiento preciso de tu entrenamiento.</p>
-            <p class="hero__description">Seguimiento de tus pasos.</p>
-            <p class="hero__description">Controla tu frecuencia cardiaca.</p>
+       
+        <section class="  hero text-light d-flex flex-column justify-content-center align-items-center">
+            <h1 class="display-1">Nuevo smartwatch</h1>
+            <p class="hero__description">
+            <p class="hero__description lead">Seguimiento preciso de tu entrenamiento.</p>
+            <p class="hero__description lead">Seguimiento de tus pasos.</p>
+            <p class="hero__description lead">Water Freff IP76.</p>
         </section>
 
         <section class="trends">

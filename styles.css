@@ -55,12 +55,12 @@ margin: 0 auto;/* margin o = topa auto = left raight- centgra el contenedor */
     background-size: cover;/*se ajusta todo el tamaño al contenqedor   */
     background-position: center;/*Imagen centrada    */
     height: 500px;/*Medid de mi imagen  */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10 60px;
-    color: rgb(255, 255, 255);
+    /*display: flex; */
+   /* flex-direction: column; */
+   /* justify-content: center;*/
+/*align-items: center;
+*padding: 10 60px; 
+color: rgb(255, 255, 255); */
 }
 .hero_h4{
     display: flex;
